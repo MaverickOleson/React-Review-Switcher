@@ -1,0 +1,38 @@
+.App {
+    width: 40%;
+    height: auto;
+    background: white;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 0.7%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: center;
+}
+.App .img-container {
+    width: 100%;
+}
+.App .img-container div {
+    filter: drop-shadow(10px -4px 0 #4444dd);
+    margin-top: -10px;
+    margin-bottom: -7%;
+}
+.App img {
+    width: 25%;
+    clip-path: circle();
+}
+.App div h3 {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    position: relative;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+}
+.App .para {
+    margin: 10px 4% 10px 4%;
+}
